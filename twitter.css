@@ -1,0 +1,32 @@
+body {
+  background-color: lightblue;
+}
+
+nav {
+  background-color: white;
+  width: 100%;
+  margin: -0.6%;
+  padding: 1%;
+  position: fixed;
+}
+
+#bird {
+  width: 10px;
+  height: 10px;
+}
+
+.search-settings {
+  display: inline-block;
+}
+
+#me {
+  display: inline-block;
+}
+
+.settings {
+  display: inline-block;
+}
+
+.settings-menu {
+  display: none;
+}
