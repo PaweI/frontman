@@ -33,8 +33,9 @@ nav {
 }
 
 .navigation li a:hover {
-  border-bottom: 5px solid black;
+  border-bottom: 5px solid #850404;
   text-decoration: none;
+  color: #850404;
   -webkit-transition: all .15s ease-in-out;
   -moz-transition: all .15s ease-in-out;
   transition: all .15s ease-in-out;
@@ -91,6 +92,11 @@ img {
   background-color: #f5f8fa;
   border: 1px solid #e1e8ed;
   outline: 0;
+}
+
+.search-input:focus {
+  background-color: white;
+  transition: all .100s ease-in-out;
 }
 
 .me {
