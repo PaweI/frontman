@@ -18,9 +18,27 @@ nav {
   list-style-type: none;
   list-style-position: outside;
   display: block;
+  border-bottom: 1px solid #e8e8e8;
 }
 
-.navigation li { display: inline; }
+.navigation li { 
+  text-decoration: none; 
+  display: inline; 
+  color: black;
+}
+
+.navigation li a {
+  text-decoration: none; 
+
+}
+
+.navigation li a:hover {
+  border-bottom: 5px solid black;
+  text-decoration: none;
+  -webkit-transition: all .15s ease-in-out;
+  -moz-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+}
 
 .Icon--large {
   font-size: 21px;
@@ -63,8 +81,24 @@ img {
   position: absolute;
 }
 
-#me {
+.search-input {
+  border-radius: 21px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 32px;
+  padding: 5px 27px 6px 12px;
+  font-size: 12px;
+  background-color: #f5f8fa;
+  border: 1px solid #e1e8ed;
+  outline: 0;
+}
+
+.me {
+  position: absolute;
   display: inline-block;
+  border-radius: 10px;
+  margin-left: 15px;
+  margin-top: -15px;
 }
 
 .settings {
@@ -80,7 +114,20 @@ img {
 
 .tweet {
   position: absolute;
-  margin-left: 200px;
-  margin-top: -18px;
+  margin-left: 230px;
+  margin-top: -33px;
+  border-radius: 5px;
+  border: 1px solid #e1e8ed;
+  padding: 3px;
+  font-size: 13px;
+  width: 100px;
+  height: 40px;
+  color: white;
+  background-color: #850404;
+  outline: 0;
+  opacity: 0.8;
+}
 
+.tweet:hover {
+  opacity: 1
 }
