@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
+  <link rel="icon" type="image/x-icon" href="./favicon.ico">
   <title>myinstagram</title>
   <link rel="stylesheet" type="text/css" href="./twitter.css">
 </head>
 <body>
   <nav>
+    <ul class="navigation">
+      <li class="home"><a href="/"><span class="Icon Icon--home Icon--large"></span><span class="text">Home</span></a></li>
+      <li class="notifications"><a href="/i/notifications"><span class="Icon Icon--notifications Icon--large"></span><span class="notifications">Notifications</span></a></li>
+      <li><a href="#"><span class="Icon Icon--messages Icon--large"></span><span class="messages">Messages</span></a></li>
+      <li><a href="/i/discover"><span class="Icon Icon--discover Icon--large"></span><span class="discover">Discover</span></a></li>
+    </ul>
 
-    <a href="/"><span id="home">Home</span></a>
-    <a href="/i/notifications"><span id="notifications">Notifications</span></a>
-    <a href="#"><span id="messages">Messages</span></a>
-    <a href="/i/discover"><span id="discover">Discover</span></a>
-
-    <span id="bird"></span>
+    <img src="./twitter_image.jpeg">
 
     <section class="search-settings">
 
@@ -34,7 +37,7 @@
           </ul>
       </section>
 
-      <button><span id="text">Tweet</span></button>
+      <button class="tweet"><span id="text">Tweet</span></button>
 
     </section>
   </nav>
