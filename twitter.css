@@ -137,3 +137,32 @@ img {
 .tweet:hover {
   opacity: 1
 }
+
+.dashboard {
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 7%;
+}
+
+.dashboard-image {
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  background-color: #850404;
+}
+
+.dashboard-content {
+  position: absolute;
+  background-color: white;
+  margin-top: 100px;
+  width: 300px;
+  height: 100px;
+}
+
+.my-info {
+  list-style-type: none;
+  /*display: inlin/*e;*/
+  list-style-position: outside;
+  display: block;
+  text-decoration: none; 
+}
