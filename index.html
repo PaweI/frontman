@@ -9,10 +9,30 @@
 <body>
   <nav>
     <ul class="navigation">
-      <li class="home"><a href="/"><span class="Icon Icon--home Icon--large"></span><span class="text">Home</span></a></li>
-      <li class="notifications"><a href="/i/notifications"><span class="Icon Icon--notifications Icon--large"></span><span class="notifications">Notifications</span></a></li>
-      <li><a href="#"><span class="Icon Icon--messages Icon--large"></span><span class="messages">Messages</span></a></li>
-      <li><a href="/i/discover"><span class="Icon Icon--discover Icon--large"></span><span class="discover">Discover</span></a></li>
+      <li class="home">
+        <a href="/">
+          <span class="Icon Icon--home Icon--large"></span>
+          <span class="text">Home</span>
+        </a>
+      </li>
+      <li class="notifications">
+        <a href="/i/notifications">
+          <span class="Icon Icon--notifications Icon--large"></span>
+          <span class="notifications">Notifications</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span class="Icon Icon--messages Icon--large"></span>
+          <span class="messages">Messages</span>
+        </a>
+      </li>
+      <li>
+        <a href="/i/discover">
+          <span class="Icon Icon--discover Icon--large"></span>
+          <span class="discover">Discover</span>
+        </a>
+      </li>
     </ul>
 
     <img src="./twitter_image.jpeg">
@@ -42,17 +62,19 @@
   </nav>
 
   <section class="dashboard">
-    <a href=""><section class="dashboard-image"></section></a>
-    <img src="./me2_image.jpeg">
+    <a href="">
+      <section class="dashboard-color"></section>
+    </a>
+    <img src="./me2_image.jpeg" class="dashboard-image">
     <section class="dashboard-content">
-      <article class="my-details">
-        <a href="">Pavel Redics</a>
-        <a href="">@Pavel Redics</a>
-      </article>
+      <ul class="my-details">
+        <li><a href="" id="topname">Pavel Redics</a></li>
+        <li><a href="" id="bottomname">@Pavel Redics</a></li>
+      </ul>
       <ul class="my-info">
-        <li>Tweets</li>
-        <li>Following</li>
-        <li>Followers</li>
+        <li><a href="">TWEETS</a></li>
+        <li><a href="">FOLLOWING</a></li>
+        <li><a href="">FOLLOWERS</a></li>
       </ul>
     </section>
   </section>

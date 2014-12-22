@@ -6,7 +6,9 @@ nav {
   background-color: white;
   width: 100%;
   height: 50px;
-  margin: -0.6%;
+  margin-top: -1%;
+  margin-left: -1%;
+  margin-bottom: 5px;
   padding: 1%;
   position: fixed;
 }
@@ -29,16 +31,14 @@ nav {
 
 .navigation li a {
   text-decoration: none; 
+  color: grey;
 
 }
 
 .navigation li a:hover {
-  border-bottom: 5px solid #850404;
-  text-decoration: none;
+  border-bottom: 6px solid #850404;
+  padding-bottom: 22px;
   color: #850404;
-  -webkit-transition: all .15s ease-in-out;
-  -moz-transition: all .15s ease-in-out;
-  transition: all .15s ease-in-out;
 }
 
 .Icon--large {
@@ -54,7 +54,6 @@ nav {
 }
 
 .Icon:before {
-  font-family: 'rosettaicons';
   display: block;
   font-weight: normal;
   font-style: normal;
@@ -96,6 +95,7 @@ img {
 
 .search-input:focus {
   background-color: white;
+  -webkit-transition: all .100s ease-in-out;
   transition: all .100s ease-in-out;
 }
 
@@ -140,29 +140,90 @@ img {
 
 .dashboard {
   position: absolute;
-  margin-left: 5%;
-  margin-top: 7%;
+  margin-left: 2%;
+  margin-top: 6%;
+}
+
+.dashboard-color{
+  position: absolute;
+  width: 300px;
+  height: 95px;
+  background-color: #850404;
+  border-radius: 5px 5px 0px 0px;
 }
 
 .dashboard-image {
   position: absolute;
-  width: 300px;
-  height: 100px;
-  background-color: #850404;
+  width: 72px;
+  height: 72px;
+  border-radius: 7px;
+  margin-top: 70px;
+  margin-left: 10px;
+  border: 2px solid white;
+  z-index: 1;
 }
 
 .dashboard-content {
   position: absolute;
   background-color: white;
-  margin-top: 100px;
+  margin-top: 95px;
   width: 300px;
   height: 100px;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.my-details li {
+  margin-left: 55px;
+  margin-top: -3px;
+  list-style-type: none;
+}
+
+.my-details li a {
+  text-decoration: none; 
+}
+
+#topname {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#topname:hover {
+  text-decoration: underline;
+}
+
+#bottomname {
+  color: grey;
+  font-size: 13px;
+}
+
+#bottomname:hover {
+  color: #850404;
+  text-decoration: underline;
 }
 
 .my-info {
-  list-style-type: none;
-  /*display: inlin/*e;*/
-  list-style-position: outside;
-  display: block;
-  text-decoration: none; 
+  margin-top: -10px;
+  margin-left: -25px;
 }
+
+.my-info li {
+  list-style-type: none;
+  display: inline;
+  padding: 17px;
+}
+
+.my-info li a{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 10px;
+  text-decoration: none; 
+  color: grey;
+}
+
+.my-info li a:hover {
+  color: #850404;
+  -webkit-transition: all .100s ease-in-out;
+  transition: all .100s ease-in-out;
+}
+
+
